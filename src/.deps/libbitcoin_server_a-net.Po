@@ -1036,7 +1036,7 @@ libbitcoin_server_a-net.o: net.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/variant/detail/element_index.hpp \
  /usr/include/boost/variant/visitor_ptr.hpp \
  /usr/include/boost/variant/bad_visit.hpp consensus/params.h \
- clientversion.h miner.h darksend.h main.h config/lux-config.h amount.h \
+ clientversion.h miner.h darksend.h main.h config/are-config.h amount.h \
  chain.h pow.h /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/range/iterator_range_core.hpp \
  /usr/include/boost/range/functions.hpp /usr/include/boost/range/size.hpp \
@@ -3755,7 +3755,7 @@ darksend.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

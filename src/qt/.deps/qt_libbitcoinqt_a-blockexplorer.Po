@@ -1111,7 +1111,7 @@ qt/qt_libbitcoinqt_a-blockexplorer.o: qt/blockexplorer.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h chainparams.h \
  qt/clientmodel.h /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h core_io.h main.h \
- config/lux-config.h amount.h chain.h pow.h tinyformat.h util.h \
+ config/are-config.h amount.h chain.h pow.h tinyformat.h util.h \
  utiltime.h /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
@@ -3947,7 +3947,7 @@ core_io.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

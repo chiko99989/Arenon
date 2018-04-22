@@ -1018,7 +1018,7 @@ libbitcoin_wallet_a-stake.o: stake.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/io/detail/quoted_manip.hpp \
  /usr/include/boost/io/ios_state.hpp /usr/include/boost/io_fwd.hpp \
  /usr/include/db_cxx.h /usr/include/db.h /usr/include/inttypes.h stake.h \
- uint256.h amount.h init.h main.h config/lux-config.h chain.h pow.h \
+ uint256.h amount.h init.h main.h config/are-config.h chain.h pow.h \
  primitives/block.h primitives/transaction.h amount.h script/script.h \
  pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h serialize.h uint256.h \
  version.h crypto/sph_skein.h crypto/sph_types.h crypto/sph_jh.h \
@@ -3625,7 +3625,7 @@ init.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

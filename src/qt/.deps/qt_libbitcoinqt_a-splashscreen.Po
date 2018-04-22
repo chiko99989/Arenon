@@ -1116,7 +1116,7 @@ qt/qt_libbitcoinqt_a-splashscreen.o: qt/splashscreen.cpp \
  /usr/include/boost/variant/bad_visit.hpp protocol.h netbase.h \
  consensus/params.h script/script.h script/standard.h \
  script/interpreter.h script/script_error.h crypter.h keystore.h main.h \
- config/lux-config.h chain.h pow.h util.h /usr/include/boost/foreach.hpp \
+ config/are-config.h chain.h pow.h util.h /usr/include/boost/foreach.hpp \
  /usr/include/boost/range/end.hpp /usr/include/boost/range/config.hpp \
  /usr/include/boost/range/detail/implementation_help.hpp \
  /usr/include/boost/range/detail/common.hpp \
@@ -3916,7 +3916,7 @@ keystore.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

@@ -1015,7 +1015,7 @@ zmq/libbitcoin_zmq_a-zmqpublishnotifier.o: zmq/zmqpublishnotifier.cpp \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h consensus/params.h \
  zmq/zmqpublishnotifier.h zmq/zmqabstractnotifier.h zmq/zmqconfig.h \
  config/are-config.h /usr/include/zmq.h primitives/block.h main.h \
- config/lux-config.h amount.h chain.h pow.h tinyformat.h util.h \
+ config/are-config.h amount.h chain.h pow.h tinyformat.h util.h \
  utiltime.h /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
@@ -3577,7 +3577,7 @@ primitives/block.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

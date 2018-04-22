@@ -742,7 +742,7 @@ libbitcoin_server_a-txdb.o: txdb.cpp /usr/include/stdc-predef.h txdb.h \
  leveldb/include/leveldb/db.h leveldb/include/leveldb/iterator.h \
  leveldb/include/leveldb/slice.h leveldb/include/leveldb/status.h \
  leveldb/include/leveldb/options.h leveldb/include/leveldb/write_batch.h \
- main.h config/lux-config.h amount.h chain.h pow.h primitives/block.h \
+ main.h config/are-config.h amount.h chain.h pow.h primitives/block.h \
  primitives/transaction.h amount.h script/script.h pubkey.h hash.h \
  crypto/ripemd160.h crypto/sha256.h serialize.h uint256.h version.h \
  crypto/sph_skein.h crypto/sph_types.h crypto/sph_jh.h \
@@ -3041,7 +3041,7 @@ leveldb/include/leveldb/write_batch.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via InstanTX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstanTX
 
-This mechanism has been integrated into Bitcore-Node-LUX which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/LUX-Project/insight-api-lux#web-socket-api](https://github.com/LUX-Project/insight-api-lux#web-socket-api) 
-* API: [https://github.com/LUX-Project/insight-api-lux#instantx-transactions](https://github.com/LUX-Project/insight-api-lux#instantx-transactions)
+This mechanism has been integrated into Bitcore-Node-are which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/are-Project/insight-api-are#web-socket-api](https://github.com/are-Project/insight-api-are#web-socket-api) 
+* API: [https://github.com/are-Project/insight-api-are#instantx-transactions](https://github.com/are-Project/insight-api-are#instantx-transactions)
 
 ####Command line option
 

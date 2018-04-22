@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Lux-Qt</string>
+  <string>are-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Lux-Qt</string>
+  <string>are-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.ARENON.Lux-Qt</string>
+  <string>io.ARENON.are-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.ARENON.LuxPayment</string>
+      <string>io.ARENON.arePayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>lux</string>
+        <string>are</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.lux.paymentrequest</string>
+      <string>io.are.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Lux payment request</string>
+      <string>are payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-lux-payment-request</string>
+        <string>application/x-are-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>luxpaymentrequest</string>
+          <string>arepaymentrequest</string>
         </array>
       </dict>
     </dict>

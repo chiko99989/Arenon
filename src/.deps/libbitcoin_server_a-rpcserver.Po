@@ -1499,7 +1499,7 @@ libbitcoin_server_a-rpcserver.o: rpcserver.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h version.h \
  consensus/params.h key.h pubkey.h script/script.h script/standard.h \
  script/interpreter.h script/script_error.h init.h main.h \
- config/lux-config.h chain.h pow.h tinyformat.h util.h utiltime.h \
+ config/are-config.h chain.h pow.h tinyformat.h util.h utiltime.h \
  /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
@@ -5177,7 +5177,7 @@ init.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

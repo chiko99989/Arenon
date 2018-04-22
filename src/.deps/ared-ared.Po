@@ -120,7 +120,7 @@ ared-ared.o: ared.cpp /usr/include/stdc-predef.h clientversion.h \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- init.h main.h config/lux-config.h amount.h serialize.h \
+ init.h main.h config/are-config.h amount.h serialize.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -2051,7 +2051,7 @@ init.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

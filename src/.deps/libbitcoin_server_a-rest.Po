@@ -1,5 +1,5 @@
 libbitcoin_server_a-rest.o: rest.cpp /usr/include/stdc-predef.h main.h \
- config/lux-config.h amount.h serialize.h /usr/include/c++/7/algorithm \
+ config/are-config.h amount.h serialize.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -1691,7 +1691,7 @@ libbitcoin_server_a-rest.o: rest.cpp /usr/include/stdc-predef.h main.h \
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

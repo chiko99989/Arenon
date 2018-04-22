@@ -2,14 +2,14 @@
 
 ARENON version *version* is now available from:
 
-  <https://github.com/216k155/lux/releases>
+  <https://github.com/216k155/are/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/216k155/lux/issues>
+  <https://github.com/216k155/are/issues>
 
 Mandatory Update
 ==============
@@ -21,7 +21,7 @@ Users updating from a previous version after the 16th of October will require a 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/LUX-Qt (on Mac) or luxd/lux-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/are-Qt (on Mac) or ared/are-qt (on Linux).
 
 Compatibility
 ==============
@@ -40,10 +40,10 @@ frequently tested on them.
 Notable Changes
 ===============
 
-Zerocoin (zLUX) Protocol
+Zerocoin (zare) Protocol
 ---------------------
 
-At long last, the zLUX release is here and the zerocoin protocol has been fully implemented! This allows users to send transactions with 100% fungible coins and absolutely zero history or link-ability to their previous owners.
+At long last, the zare release is here and the zerocoin protocol has been fully implemented! This allows users to send transactions with 100% fungible coins and absolutely zero history or link-ability to their previous owners.
 
 Full and comprehensive details about the process and the use will be posted here during the days between Oct 6 and Oct 13.
 
@@ -65,7 +65,7 @@ the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
 ### Broad Features
-- #264 `15e84e5` zLUX is here! (Fuzzbawls Mrs-X Presstab Spock LUX)
+- #264 `15e84e5` zare is here! (Fuzzbawls Mrs-X Presstab Spock are)
 
 ### P2P Protocol and Network Code
 - #242 `0ecd77f` [P2P] Improve TOR service connectivity (Fuzzbawls)
@@ -83,7 +83,7 @@ Thanks to everyone who directly contributed to this release:
 - Fuzzbawls
 - Jon Spock
 - Mrs-X
-- LUX
+- are
 - amirabrams
 - presstab
 

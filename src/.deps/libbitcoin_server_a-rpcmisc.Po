@@ -1014,7 +1014,7 @@ libbitcoin_server_a-rpcmisc.o: rpcmisc.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h serialize.h version.h \
  consensus/params.h key.h pubkey.h script/script.h script/standard.h \
  script/interpreter.h script/script_error.h clientversion.h init.h main.h \
- config/lux-config.h amount.h chain.h pow.h tinyformat.h util.h \
+ config/are-config.h amount.h chain.h pow.h tinyformat.h util.h \
  utiltime.h /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
@@ -4016,7 +4016,7 @@ init.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

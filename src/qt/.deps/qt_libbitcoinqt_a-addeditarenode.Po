@@ -1168,7 +1168,7 @@ qt/qt_libbitcoinqt_a-addeditarenode.o: qt/addeditarenode.cpp \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h consensus/params.h \
  script/script.h script/standard.h script/interpreter.h \
- script/script_error.h crypter.h main.h config/lux-config.h chain.h pow.h \
+ script/script_error.h crypter.h main.h config/are-config.h chain.h pow.h \
  tinyformat.h util.h utiltime.h /usr/include/boost/foreach.hpp \
  /usr/include/boost/range/end.hpp /usr/include/boost/range/config.hpp \
  /usr/include/boost/range/detail/implementation_help.hpp \
@@ -4051,7 +4051,7 @@ crypter.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

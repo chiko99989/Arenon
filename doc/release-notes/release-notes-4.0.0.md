@@ -1,25 +1,25 @@
 ARENON version 4.0.0 is now available from:
 
-  <https://github.com/216k155/lux/releases>
+  <https://github.com/216k155/are/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/216k155/lux/issues>
+  <https://github.com/216k155/are/issues>
 
 Recommended Update
 ==============
 
-ARENON v4.0.0 is a recommended, semi-mandatory update for all users. This release contains transaction creation bug fixes for zLUX spends, automint calculation adjustments, and other various updates/fixes.
+ARENON v4.0.0 is a recommended, semi-mandatory update for all users. This release contains transaction creation bug fixes for zare spends, automint calculation adjustments, and other various updates/fixes.
 
-zLUX spending requires this update.
+zare spending requires this update.
 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/LUX-Qt (on Mac) or luxd/lux-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/are-Qt (on Mac) or ared/are-qt (on Linux).
 
 Compatibility
 ==============
@@ -45,21 +45,21 @@ Notable Changes
 
 Auto Wallet Backup
 ---------------------
-In addition to the automatic wallet backup that is done at each start of the client, a new automatic backup function has been added that will, by default, create a backup of the wallet file during each zLUX mint operation (zLUX spends which re-mint their change are also included in this). This functionality is controlled by the `-backupzlux` command-line option, which defaults to `1` (enabled, auto-backup).
+In addition to the automatic wallet backup that is done at each start of the client, a new automatic backup function has been added that will, by default, create a backup of the wallet file during each zare mint operation (zare spends which re-mint their change are also included in this). This functionality is controlled by the `-backupzare` command-line option, which defaults to `1` (enabled, auto-backup).
 
-Users that wish to prevent this behavior (not recommended) can pass `-backupzlux=0` at the command-line when starting the client, or add `backupzlux=0` to their `lux.conf` file.
+Users that wish to prevent this behavior (not recommended) can pass `-backupzare=0` at the command-line when starting the client, or add `backupzare=0` to their `are.conf` file.
 
-zLUX Automint Calculations
+zare Automint Calculations
 ---------------------
-A bug in the automint calculations was made apparent on mainnet when block times exceeded expectations, resulting in zLUX mint transactions that were in an unconfirmed state to still be treated as if they had never been minted. This caused automint to effectively mint more than what was intended.
+A bug in the automint calculations was made apparent on mainnet when block times exceeded expectations, resulting in zare mint transactions that were in an unconfirmed state to still be treated as if they had never been minted. This caused automint to effectively mint more than what was intended.
 
-zLUX Spending Fix
+zare Spending Fix
 ---------------------
-The size of zLUX spend transactions is knowingly larger than normal transactions, and while this was expected, a much stricter check against the scriptsig size is used for mainnet, causing the transactions to be rejected by the mempool, and thus not being packaged into any blocks.
+The size of zare spend transactions is knowingly larger than normal transactions, and while this was expected, a much stricter check against the scriptsig size is used for mainnet, causing the transactions to be rejected by the mempool, and thus not being packaged into any blocks.
 
-zLUX Transaction Recovery
+zare Transaction Recovery
 ---------------------
-Due to the aforementioned issue with zLUX spending, users may find that their attempted spends are now conflicted and zLUX balances are not represented as expected. "Recovery" of these transactions can be done using the following methods:
+Due to the aforementioned issue with zare spending, users may find that their attempted spends are now conflicted and zare balances are not represented as expected. "Recovery" of these transactions can be done using the following methods:
 
 1. GUI:
 
@@ -71,7 +71,7 @@ Due to the aforementioned issue with zLUX spending, users may find that their at
 
 RPC Changes
 ---------------------
-The `bip38decrypt` command has had it's parameter order changed to be more consistent with it's counterpart. The command now expects the LUX address as it's first parameter and the passphrase as it's second parameter.
+The `bip38decrypt` command has had it's parameter order changed to be more consistent with it's counterpart. The command now expects the are address as it's first parameter and the passphrase as it's second parameter.
 
 Bip38 Compatibility With 3rd Party Tools
 ---------------------
@@ -90,13 +90,13 @@ git merge commit are mentioned.
 
 ### P2P Protocol and Network Code
 - #286 `85c0f53` [Main] Change sporkDB from smart ptr to ptr. (presstab)
-- #292 `feadab4` Additional checks for double spending of zLux serials. (presstab)
+- #292 `feadab4` Additional checks for double spending of zare serials. (presstab)
 
 ### Wallet
 - #271 `5e9a086` [Wallet] Remove unused member wallet in UnlockContext inner class (Jon Spock)
-- #279 `e734010` Add -backupzlux startup flag. (presstab)
-- #280 `fdc182d` [Wallet] Fix zLux spending errors. (presstab)
-- #282 `4.0.016` [Wallet] Count pending zLux balance for automint. (presstab)
+- #279 `e734010` Add -backupzare startup flag. (presstab)
+- #280 `fdc182d` [Wallet] Fix zare spending errors. (presstab)
+- #282 `4.0.016` [Wallet] Count pending zare balance for automint. (presstab)
 - #290 `004d7b6` Include both pending and mature zerocoins for automint calculations (presstab)
 
 ### GUI
@@ -105,7 +105,7 @@ git merge commit are mentioned.
 - #270 `bd2328e` [Qt] Make lock icon clickable to toggle wallet lock state (Fuzzbawls)
 - #273 `f31136e` [Qt] Fix UI tab order and shortcuts (Mrs-X)
 - #287 `74a1c3c` [Qt] Don't allow the Esc key to close the privacy tab (Fuzzbawls)
-- #291 `cb314e6` [Qt] zLux control quantity/amount fixes (rejectedpromise)
+- #291 `cb314e6` [Qt] zare control quantity/amount fixes (rejectedpromise)
 
 ### Miscellaneous
 - #266 `2d97b54` [Scripts] Fix location for aarch64 outputs in gitian-build.sh (Fuzzbawls)

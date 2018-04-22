@@ -740,7 +740,7 @@ qt/qt_libbitcoinqt_a-overviewpage.o: qt/overviewpage.cpp \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
  /usr/include/c++/7/bits/fstream.tcc init.h darksend.h main.h \
- config/lux-config.h amount.h chain.h pow.h primitives/block.h \
+ config/are-config.h amount.h chain.h pow.h primitives/block.h \
  primitives/transaction.h script/script.h /usr/include/c++/7/climits \
  pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h uint256.h version.h \
  crypto/sph_skein.h crypto/sph_types.h crypto/sph_jh.h \
@@ -3164,7 +3164,7 @@ darksend.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

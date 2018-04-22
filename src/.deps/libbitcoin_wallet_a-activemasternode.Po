@@ -1023,7 +1023,7 @@ libbitcoin_wallet_a-activemasternode.o: activemasternode.cpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp key.h main.h \
- config/lux-config.h amount.h chain.h pow.h primitives/block.h \
+ config/are-config.h amount.h chain.h pow.h primitives/block.h \
  primitives/transaction.h amount.h script/script.h pubkey.h hash.h \
  serialize.h uint256.h serialize.h uint256.h keystore.h key.h pubkey.h \
  sync.h /usr/include/boost/variant.hpp \
@@ -3589,7 +3589,7 @@ key.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

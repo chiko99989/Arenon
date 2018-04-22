@@ -947,7 +947,7 @@ libbitcoin_server_a-txmempool.o: txmempool.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/shared_lock_guard.hpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/pthread/recursive_mutex.hpp clientversion.h \
- config/are-config.h main.h config/lux-config.h chain.h pow.h \
+ config/are-config.h main.h config/are-config.h chain.h pow.h \
  primitives/block.h keystore.h key.h allocators.h \
  /usr/include/boost/thread/once.hpp \
  /usr/include/boost/thread/pthread/once_atomic.hpp \
@@ -3422,7 +3422,7 @@ config/are-config.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

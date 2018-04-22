@@ -1,33 +1,33 @@
-![LUX Logo](https://github.com/216k155/lux/blob/master/src/qt/res/images/lux_logo_horizontal.png)
+![are Logo](https://github.com/216k155/are/blob/master/src/qt/res/images/are_logo_horizontal.png)
 
 "Empowered By Intelligence"
 
 ARENON is GNU AGPLv3 licensed.
 
-[![Build Status](https://travis-ci.org/216k155/lux.svg?branch=master)](https://travis-ci.org/216k155/lux)
+[![Build Status](https://travis-ci.org/216k155/are.svg?branch=master)](https://travis-ci.org/216k155/are)
 <a href="https://discord.gg/27xFP5Y"><img src="https://discordapp.com/api/guilds/364500397999652866/embed.png" alt="Discord server" /></a>
 
-[![Build history](https://buildstats.info/travisci/chart/216k155/lux?branch=master)](https://travis-ci.org/216k155/lux?branch=master)
+[![Build history](https://buildstats.info/travisci/chart/216k155/are?branch=master)](https://travis-ci.org/216k155/are?branch=master)
 
-[Website](https://ARENON.io) — [LUXtre + LUXGate](https://github.com/216k155/luxtre) - [PoS Web Wallet](https://lux.poswallet.io) — [Block Explorer](https://explorer.ARENON.io/) — [Blog](https://reddit.com/r/LUXCoin) — [Forum](https://bitcointalk.org/index.php?topic=2254046.0) — [Telegram](https://t.me/LUXcoinOfficialChat) — [Twitter](https://twitter.com/LUX_Coin)
+[Website](https://ARENON.io) — [aretre + areGate](https://github.com/216k155/aretre) - [PoS Web Wallet](https://are.poswallet.io) — [Block Explorer](https://explorer.ARENON.io/) — [Blog](https://reddit.com/r/areCoin) — [Forum](https://bitcointalk.org/index.php?topic=2254046.0) — [Telegram](https://t.me/arecoinOfficialChat) — [Twitter](https://twitter.com/are_Coin)
 
 Features
 =============
 
-* Luxgate - Parallel masternode / masternode
+* aregate - Parallel masternode / masternode
 * Segwit
 * Smart contract
-* Luxgate
+* aregate
 * New PHI1612 PoW/PoS hybrid algorithm
 * Static PoS
 
 The ARENON Project is a decentralized peer-to-peer banking financial platform, created under an open source license, featuring a built-in cryptocurrency, end-to-end encrypted messaging and decentralized marketplace. The decentralized network aims to provide anonymity and privacy for everyone through a simple user-friendly interface by taking care of all the advanced cryptography in the background.
 
-The Luxgate allow for communications among validated blockchain with the ability to perform tasks and advanced functions. Through the use of Pmn, Lux is able to interact with many other popular blockchains and create a unifying bond among those ecosystems.
+The aregate allow for communications among validated blockchain with the ability to perform tasks and advanced functions. Through the use of Pmn, are is able to interact with many other popular blockchains and create a unifying bond among those ecosystems.
 
-Lux doesn't provide direct support for dapp database. Instead, a mechanism to interact with another Blockchain via Luxgate function where the other Blockchain can send and receive trigger function notices and international data through the Lux network via Parallel Masternode (Pmn) and Luxgate. Pmn & Luxgate can also be used to interact with the centralized services such as banker. Those centralism service can connect to the Lux network for specific trigger of the Luxgate via Pmn. It will allow for their developed autonomous system to act based on their behalf. The Pmn will then be developed by the connecting Blockchain developer. ARENON will have to supply a deployment guide to assist their developer. In other to assist the Centralized services, Lux will need to provide a centralized trustworthy environments. So user have their trusted oversight to verify that the transactions are legitimate.
+are doesn't provide direct support for dapp database. Instead, a mechanism to interact with another Blockchain via aregate function where the other Blockchain can send and receive trigger function notices and international data through the are network via Parallel Masternode (Pmn) and aregate. Pmn & aregate can also be used to interact with the centralized services such as banker. Those centralism service can connect to the are network for specific trigger of the aregate via Pmn. It will allow for their developed autonomous system to act based on their behalf. The Pmn will then be developed by the connecting Blockchain developer. ARENON will have to supply a deployment guide to assist their developer. In other to assist the Centralized services, are will need to provide a centralized trustworthy environments. So user have their trusted oversight to verify that the transactions are legitimate.
 
-In addition, without Luxgate and Pmn, Bitcoin and Ethereum cannot interact with each other on the same Blockchain because the technology is incompatible. It is almost impossible before our Pmn and Luxgate functions are implemented. Therefore, we have to introduce a Smartcontract & Segwit features in the next release to verify that we succeed to combine those different technologies together to create a brand new unique features of LUX.
+In addition, without aregate and Pmn, Bitcoin and Ethereum cannot interact with each other on the same Blockchain because the technology is incompatible. It is almost impossible before our Pmn and aregate functions are implemented. Therefore, we have to introduce a Smartcontract & Segwit features in the next release to verify that we succeed to combine those different technologies together to create a brand new unique features of are.
 
 ## Coin Specifications
 
@@ -36,17 +36,17 @@ In addition, without Luxgate and Pmn, Bitcoin and Ethereum cannot interact with 
 | Total Blocks | `6,000,000` |
 | Block Size | `4MB` |
 | Block Time | `60s` |
-| PoW Reward | `10 LUX` |
-| PoS Reward | `1 LUX` |
+| PoW Reward | `10 are` |
+| PoS Reward | `1 are` |
 | Stake Time | `36 hours` |
-| Masternode Requirement | `16,120 LUX` |
+| Masternode Requirement | `16,120 are` |
 | Masternode Reward | `40% PoS Block ` |
 | Port | `26868` |
 | RPC Port | `9888` |
 | Masternode Port | `26868` |
 
 
-Build Lux wallet
+Build are wallet
 ----------
 
 ### Building for 64-bit Windows
@@ -67,25 +67,25 @@ Ubuntu Xenial 16.04 and Windows Subsystem for Linux
 
 Once the tool chain is installed the build steps are common:
 
-Note that for WSL the ARENON source path MUST be somewhere in the default mount file system, for example /usr/src/lux, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail. This means you cannot use a directory that located directly on the host Windows file system to perform the build.
+Note that for WSL the ARENON source path MUST be somewhere in the default mount file system, for example /usr/src/are, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail. This means you cannot use a directory that located directly on the host Windows file system to perform the build.
 
 The next three steps are an example of how to acquire the source in an appropriate way.
 
     cd /usr/src
-    git clone https://github.com/216k155/lux.git
-    sudo chmod -R a+rw lux
+    git clone https://github.com/216k155/are.git
+    sudo chmod -R a+rw are
 
 Once the source code is ready the build steps are below.
 
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
-    cd lux/depends
+    cd are/depends
     ./build-wins.sh
 
 ### Build on Ubuntu
 
-    git clone https://github.com/216k155/lux.git
+    git clone https://github.com/216k155/are.git
 
-    cd lux
+    cd are
     ./install-dependencies.sh
     ./autogen.sh
     ./configure --disable-tests
@@ -118,10 +118,10 @@ Link boost 1.66
 
 #### Build ARENON
 
-Clone the Lux source code and cd into lux
+Clone the are source code and cd into are
 
-        git clone https://github.com/216k155/lux.git
-        cd lux
+        git clone https://github.com/216k155/are.git
+        cd are
         export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include
         ./autogen.sh
         ./configure --disable-tests 
@@ -133,8 +133,8 @@ Setup and Build: Arch Linux
 This example lists the steps necessary to setup and build a command line only, non-wallet distribution of the latest changes on Arch Linux:
 
     pacman -S git base-devel boost libevent python
-    git clone https://github.com/216k155/lux
-    cd lux/
+    git clone https://github.com/216k155/are
+    cd are/
     ./autogen.sh
     ./configure --without-miniupnpc --disable-tests
     make -j$(nproc)
@@ -196,8 +196,8 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/216k155/lux/tags) are created
-regularly to indicate new official, stable release versions of Lux.
+completely stable. [Tags](https://github.com/216k155/are/tags) are created
+regularly to indicate new official, stable release versions of are.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

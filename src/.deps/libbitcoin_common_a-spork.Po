@@ -1038,7 +1038,7 @@ libbitcoin_common_a-spork.o: spork.cpp /usr/include/stdc-predef.h sync.h \
  /usr/include/boost/variant/visitor_ptr.hpp \
  /usr/include/boost/variant/bad_visit.hpp consensus/params.h pubkey.h \
  script/standard.h script/interpreter.h script/script_error.h spork.h \
- main.h config/lux-config.h amount.h chain.h pow.h \
+ main.h config/are-config.h amount.h chain.h pow.h \
  /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/range/iterator_range_core.hpp \
  /usr/include/boost/range/functions.hpp /usr/include/boost/range/size.hpp \
@@ -3664,7 +3664,7 @@ spork.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

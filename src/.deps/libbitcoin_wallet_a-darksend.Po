@@ -1,5 +1,5 @@
 libbitcoin_wallet_a-darksend.o: darksend.cpp /usr/include/stdc-predef.h \
- darksend.h main.h config/lux-config.h amount.h serialize.h \
+ darksend.h main.h config/are-config.h amount.h serialize.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -1270,7 +1270,7 @@ darksend.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

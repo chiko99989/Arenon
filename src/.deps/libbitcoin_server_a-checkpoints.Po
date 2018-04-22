@@ -1013,7 +1013,7 @@ libbitcoin_server_a-checkpoints.o: checkpoints.cpp \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h serialize.h version.h \
- consensus/params.h main.h config/lux-config.h amount.h chain.h pow.h \
+ consensus/params.h main.h config/are-config.h amount.h chain.h pow.h \
  tinyformat.h util.h utiltime.h /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
@@ -3569,7 +3569,7 @@ consensus/params.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

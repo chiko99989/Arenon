@@ -8,10 +8,10 @@ Explore
  @216k155
  Sign out
  Unwatch 2
-  Star 0  Fork 26 duzy/lux
-forked from 216k155/lux
+  Star 0  Fork 26 duzy/are
+forked from 216k155/are
  Code  Pull requests 0  Projects 0  Wiki  Insights
-Branch: merging-master… Find file Copy pathlux/build-aux/m4/bitcoin_qt.m4
+Branch: merging-master… Find file Copy pathare/build-aux/m4/bitcoin_qt.m4
 98a328a  2 days ago
 @duzy duzy Qt: add rpath to qt libdir
 2 contributors @216k155 @duzy
@@ -22,7 +22,7 @@ dnl Output: If qt version is auto, set bitcoin_enable_qt to false. Else, exit.
 AC_DEFUN([BITCOIN_QT_FAIL],[
   if test "x$bitcoin_qt_want_version" = xauto && test "x$bitcoin_qt_force" != xyes; then
     if test "x$bitcoin_enable_qt" != xno; then
-      AC_MSG_WARN([$1; lux-qt frontend will not be built])
+      AC_MSG_WARN([$1; are-qt frontend will not be built])
     fi
     bitcoin_enable_qt=no
     bitcoin_enable_qt_test=no
@@ -69,7 +69,7 @@ AC_DEFUN([BITCOIN_QT_INIT],[
   dnl enable qt support
   AC_ARG_WITH([gui],
     [AS_HELP_STRING([--with-gui@<:@=no|qt4|qt5|auto@:>@],
-    [build lux-qt GUI (default=auto, qt5 tried first)])],
+    [build are-qt GUI (default=auto, qt5 tried first)])],
     [
      bitcoin_qt_want_version=$withval
      if test "x$bitcoin_qt_want_version" = xyes; then

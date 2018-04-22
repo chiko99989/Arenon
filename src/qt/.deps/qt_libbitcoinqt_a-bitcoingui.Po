@@ -720,7 +720,7 @@ qt/qt_libbitcoinqt_a-bitcoingui.o: qt/bitcoingui.cpp \
  qt/openuridialog.h /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h qt/optionsdialog.h \
  qt/optionsmodel.h qt/rpcconsole.h qt/peertablemodel.h main.h \
- config/lux-config.h amount.h chain.h pow.h primitives/block.h \
+ config/are-config.h amount.h chain.h pow.h primitives/block.h \
  primitives/transaction.h script/script.h /usr/include/c++/7/climits \
  pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h uint256.h version.h \
  crypto/sph_skein.h crypto/sph_types.h crypto/sph_jh.h \
@@ -3158,7 +3158,7 @@ qt/peertablemodel.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

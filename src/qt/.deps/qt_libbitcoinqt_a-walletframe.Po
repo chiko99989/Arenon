@@ -1295,7 +1295,7 @@ qt/qt_libbitcoinqt_a-walletframe.o: qt/walletframe.cpp \
  /usr/include/boost/range/begin.hpp /usr/include/boost/range/rend.hpp \
  /usr/include/boost/range/reverse_iterator.hpp \
  /usr/include/boost/range/rbegin.hpp /usr/include/boost/foreach_fwd.hpp \
- primitives/transaction.h util.h base58.h main.h config/lux-config.h \
+ primitives/transaction.h util.h base58.h main.h config/are-config.h \
  amount.h chain.h pow.h /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/range/iterator_range_core.hpp \
  /usr/include/boost/range/functions.hpp /usr/include/boost/range/size.hpp \
@@ -4990,7 +4990,7 @@ base58.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

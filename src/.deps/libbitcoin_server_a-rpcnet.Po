@@ -1191,7 +1191,7 @@ libbitcoin_server_a-rpcnet.o: rpcnet.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/move/detail/config_end.hpp \
  /usr/include/boost/move/detail/meta_utils.hpp \
  /usr/include/boost/move/detail/meta_utils_core.hpp clientversion.h \
- config/are-config.h main.h config/lux-config.h chain.h pow.h \
+ config/are-config.h main.h config/are-config.h chain.h pow.h \
  primitives/block.h primitives/transaction.h amount.h script/script.h \
  pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h serialize.h uint256.h \
  version.h crypto/sph_skein.h crypto/sph_types.h crypto/sph_jh.h \
@@ -4315,7 +4315,7 @@ config/are-config.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

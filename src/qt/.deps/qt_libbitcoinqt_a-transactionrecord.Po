@@ -1086,7 +1086,7 @@ qt/qt_libbitcoinqt_a-transactionrecord.o: qt/transactionrecord.cpp \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h consensus/params.h \
  script/script.h script/standard.h script/interpreter.h \
  script/script_error.h timedata.h wallet.h amount.h base58.h crypter.h \
- keystore.h main.h config/lux-config.h chain.h pow.h tinyformat.h util.h \
+ keystore.h main.h config/are-config.h chain.h pow.h tinyformat.h util.h \
  utiltime.h /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
@@ -3802,7 +3802,7 @@ keystore.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

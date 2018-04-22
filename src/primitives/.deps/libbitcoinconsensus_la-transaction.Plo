@@ -1184,7 +1184,7 @@ primitives/libbitcoinconsensus_la-transaction.lo: \
  /usr/include/boost/math/special_functions/fpclassify.hpp \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp hash.h main.h \
- config/lux-config.h amount.h chain.h chainparams.h chainparamsbase.h \
+ config/are-config.h amount.h chain.h chainparams.h chainparamsbase.h \
  checkpoints.h protocol.h netbase.h consensus/params.h coins.h \
  compressor.h primitives/transaction.h script/script.h script/standard.h \
  script/interpreter.h script/script_error.h undo.h \
@@ -3928,7 +3928,7 @@ hash.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

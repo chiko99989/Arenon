@@ -1,6 +1,6 @@
 qt/qt_libbitcoinqt_a-moc_peertablemodel.o: qt/moc_peertablemodel.cpp \
  /usr/include/stdc-predef.h qt/peertablemodel.h main.h \
- config/lux-config.h amount.h serialize.h /usr/include/c++/7/algorithm \
+ config/are-config.h amount.h serialize.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -1277,7 +1277,7 @@ qt/peertablemodel.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

@@ -989,7 +989,7 @@ zmq/libbitcoin_zmq_a-zmqnotificationinterface.o: \
  /usr/include/boost/variant/detail/element_index.hpp \
  /usr/include/boost/variant/visitor_ptr.hpp \
  /usr/include/boost/variant/bad_visit.hpp version.h main.h \
- config/lux-config.h amount.h chain.h pow.h primitives/block.h \
+ config/are-config.h amount.h chain.h pow.h primitives/block.h \
  tinyformat.h util.h config/are-config.h compat.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
@@ -3504,7 +3504,7 @@ version.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

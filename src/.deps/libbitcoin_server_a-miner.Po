@@ -175,7 +175,7 @@ libbitcoin_server_a-miner.o: miner.cpp /usr/include/stdc-predef.h miner.h \
  /usr/include/c++/7/sstream /usr/include/c++/7/istream \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/bits/sstream.tcc \
- main.h config/lux-config.h chain.h pow.h primitives/block.h \
+ main.h config/are-config.h chain.h pow.h primitives/block.h \
  primitives/transaction.h amount.h script/script.h \
  /usr/include/c++/7/climits pubkey.h hash.h serialize.h uint256.h \
  serialize.h uint256.h keystore.h key.h allocators.h \
@@ -1792,7 +1792,7 @@ crypto/sph_echo.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

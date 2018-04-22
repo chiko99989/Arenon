@@ -10,19 +10,19 @@ SetCompressor /SOLID lzma
 !define URL https://www.ARENON.io
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/dpr/lux2/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/dpr/lux2/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/dpr/are2/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/dpr/are2/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/dpr/lux2/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/dpr/are2/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "ARENON"
-!define MUI_FINISHPAGE_RUN $INSTDIR\lux-qt.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\are-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/dpr/lux2/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/dpr/are2/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,11 +48,11 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/dpr/lux2/lux-${VERSION}-win-setup.exe
+OutFile /home/dpr/are2/are-${VERSION}-win-setup.exe
 !if "" == "64"
-InstallDir $PROGRAMFILES64\Lux
+InstallDir $PROGRAMFILES64\are
 !else
-InstallDir $PROGRAMFILES\Lux
+InstallDir $PROGRAMFILES\are
 !endif
 CRCCheck on
 XPStyle on
@@ -73,19 +73,19 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/dpr/lux2/release/lux-qt.exe
-    File /oname=COPYING.txt /home/dpr/lux2/COPYING
-    File /oname=readme.txt /home/dpr/lux2/doc/README_windows.txt
+    File /home/dpr/are2/release/are-qt.exe
+    File /oname=COPYING.txt /home/dpr/are2/COPYING
+    File /oname=readme.txt /home/dpr/are2/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/dpr/lux2/release/luxd.exe
-    File /home/dpr/lux2/release/lux-cli.exe
+    File /home/dpr/are2/release/ared.exe
+    File /home/dpr/are2/release/are-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/dpr/lux2/doc\*.*
+    File /r /home/dpr/are2/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-lux executable and locales:
-    Delete /REBOOTOK $INSTDIR\lux.exe
+    # Remove old wxwidgets-based-are executable and locales:
+    Delete /REBOOTOK $INSTDIR\are.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -95,7 +95,7 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\lux-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\are-qt.exe
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "lux" "URL Protocol" ""
-    WriteRegStr HKCR "lux" "" "URL:Lux"
-    WriteRegStr HKCR "lux\DefaultIcon" "" $INSTDIR\lux-qt.exe
-    WriteRegStr HKCR "lux\shell\open\command" "" '"$INSTDIR\lux-qt.exe" "%1"'
+    WriteRegStr HKCR "are" "URL Protocol" ""
+    WriteRegStr HKCR "are" "" "URL:are"
+    WriteRegStr HKCR "are\DefaultIcon" "" $INSTDIR\are-qt.exe
+    WriteRegStr HKCR "are\shell\open\command" "" '"$INSTDIR\are-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -127,7 +127,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\lux-qt.exe
+    Delete /REBOOTOK $INSTDIR\are-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Lux.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\are.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "lux"
+    DeleteRegKey HKCR "are"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

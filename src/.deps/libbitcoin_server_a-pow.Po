@@ -1183,7 +1183,7 @@ libbitcoin_server_a-pow.o: pow.cpp /usr/include/stdc-predef.h pow.h \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp chainparams.h \
  chainparamsbase.h checkpoints.h protocol.h netbase.h serialize.h \
- version.h consensus/params.h main.h config/lux-config.h amount.h coins.h \
+ version.h consensus/params.h main.h config/are-config.h amount.h coins.h \
  compressor.h primitives/transaction.h script/script.h script/standard.h \
  script/interpreter.h script/script_error.h undo.h \
  /usr/include/boost/unordered_map.hpp \
@@ -3942,7 +3942,7 @@ consensus/params.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

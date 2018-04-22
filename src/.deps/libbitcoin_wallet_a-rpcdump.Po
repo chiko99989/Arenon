@@ -177,7 +177,7 @@ libbitcoin_wallet_a-rpcdump.o: rpcdump.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/sstream /usr/include/c++/7/istream \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/bits/sstream.tcc \
- init.h main.h config/lux-config.h amount.h chain.h pow.h \
+ init.h main.h config/are-config.h amount.h chain.h pow.h \
  primitives/block.h primitives/transaction.h amount.h script/script.h \
  /usr/include/c++/7/climits pubkey.h serialize.h uint256.h keystore.h \
  key.h allocators.h /usr/include/boost/thread/mutex.hpp \
@@ -2222,7 +2222,7 @@ init.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

@@ -173,7 +173,7 @@ configure:5009: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -199,7 +199,7 @@ configure:5047: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -220,7 +220,7 @@ configure:5062: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -241,7 +241,7 @@ configure:5078: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -406,7 +406,7 @@ configure:9433: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -426,7 +426,7 @@ configure:9492: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -537,7 +537,7 @@ configure:14015: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -569,7 +569,7 @@ configure:14074: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -676,7 +676,7 @@ configure:20563: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -711,7 +711,7 @@ configure:20626: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -787,7 +787,7 @@ configure:21741: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -871,7 +871,7 @@ configure:22263: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -914,7 +914,7 @@ configure:22299: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -957,7 +957,7 @@ configure:22335: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1008,7 +1008,7 @@ configure:22481: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1095,13 +1095,13 @@ configure:22594: result: yes
 configure:22604: checking for library containing getaddrinfo_a
 configure:22635: g++ -std=c++11 -o conftest -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2   -Wl,-z,relro -Wl,-z,now conftest.cpp  >&5
 /tmp/ccNR7o3r.o: In function `main':
-/home/dpr/lux2/conftest.cpp:48: undefined reference to `getaddrinfo_a'
+/home/dpr/are2/conftest.cpp:48: undefined reference to `getaddrinfo_a'
 collect2: error: ld returned 1 exit status
 configure:22635: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1225,7 +1225,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1297,7 +1297,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1369,7 +1369,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1441,7 +1441,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1513,7 +1513,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1585,7 +1585,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1657,7 +1657,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1729,7 +1729,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1801,7 +1801,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1873,7 +1873,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -1945,7 +1945,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2017,7 +2017,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2089,7 +2089,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2161,7 +2161,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2233,7 +2233,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2305,7 +2305,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2377,7 +2377,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2449,7 +2449,7 @@ configure:23092: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2599,7 +2599,7 @@ configure:24831: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2680,7 +2680,7 @@ configure:25737: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "ARENON"
-| #define PACKAGE_TARNAME "lux"
+| #define PACKAGE_TARNAME "are"
 | #define PACKAGE_VERSION "4.3.1"
 | #define PACKAGE_STRING "ARENON 4.3.1"
 | #define PACKAGE_BUGREPORT "www.ARENON.io"
@@ -2918,9 +2918,9 @@ configure:29502: result: yes
 configure:29569: checking for protoc
 configure:29587: found /usr/bin/protoc
 configure:29599: result: /usr/bin/protoc
-configure:29633: checking whether to build luxd
+configure:29633: checking whether to build ared
 configure:29643: result: yes
-configure:29646: checking whether to build utils (lux-cli lux-tx)
+configure:29646: checking whether to build utils (are-cli are-tx)
 configure:29656: result: yes
 configure:29659: checking whether to build libraries
 configure:29674: result: yes
@@ -2936,9 +2936,9 @@ configure:29793: checking whether to build GUI with support for D-Bus
 configure:29800: result: yes
 configure:29803: checking whether to build GUI with support for QR codes
 configure:29813: result: yes
-configure:29830: checking whether to build test_lux-qt
+configure:29830: checking whether to build test_are-qt
 configure:29837: result: no
-configure:29851: checking whether to build test_lux
+configure:29851: checking whether to build test_are
 configure:29858: result: no
 configure:29862: checking whether to reduce exports
 configure:29865: result: yes
@@ -2969,11 +2969,11 @@ config.status:1377: creating src/test/buildenv.py
 config.status:1377: creating qa/pull-tester/run-bitcoind-for-test.sh
 config.status:1377: creating qa/pull-tester/tests-config.sh
 config.status:1377: creating contrib/devtools/split-debug.sh
-config.status:1377: creating src/config/lux-config.h
-config.status:1558: src/config/lux-config.h is unchanged
+config.status:1377: creating src/config/are-config.h
+config.status:1558: src/config/are-config.h is unchanged
 config.status:1606: executing depfiles commands
 config.status:1606: executing libtool commands
-configure:32777: === configuring in src/secp256k1 (/home/dpr/lux2/src/secp256k1)
+configure:32777: === configuring in src/secp256k1 (/home/dpr/are2/src/secp256k1)
 configure:32840: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  '--disable-tests' '--disable-shared' '--with-pic' --cache-file=/dev/null --srcdir=.
 configure:32859: result: Fixing libtool for -rpath problems.
 
@@ -3271,7 +3271,7 @@ pkg_cv_ZMQ_LIBS=-lzmq
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/dpr/lux2/build-aux/missing aclocal-1.15'
+ACLOCAL='${SHELL} /home/dpr/are2/build-aux/missing aclocal-1.15'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -3282,9 +3282,9 @@ AM_DEFAULT_VERBOSITY='0'
 AM_V='$(V)'
 AR='/usr/bin/ar'
 ARFLAGS='cr'
-AUTOCONF='${SHELL} /home/dpr/lux2/build-aux/missing autoconf'
-AUTOHEADER='${SHELL} /home/dpr/lux2/build-aux/missing autoheader'
-AUTOMAKE='${SHELL} /home/dpr/lux2/build-aux/missing automake-1.15'
+AUTOCONF='${SHELL} /home/dpr/are2/build-aux/missing autoconf'
+AUTOHEADER='${SHELL} /home/dpr/are2/build-aux/missing autoheader'
+AUTOMAKE='${SHELL} /home/dpr/are2/build-aux/missing automake-1.15'
 AWK='mawk'
 BDB_CFLAGS=''
 BDB_CPPFLAGS=''
@@ -3397,7 +3397,7 @@ LUPDATE='/usr/lib/x86_64-linux-gnu/qt5/bin/lupdate'
 MAINT=''
 MAINTAINER_MODE_FALSE='#'
 MAINTAINER_MODE_TRUE=''
-MAKEINFO='${SHELL} /home/dpr/lux2/build-aux/missing makeinfo'
+MAKEINFO='${SHELL} /home/dpr/are2/build-aux/missing makeinfo'
 MAKENSIS=''
 MANIFEST_TOOL=':'
 MINIUPNPC_CPPFLAGS=''
@@ -3415,11 +3415,11 @@ OBJDUMP='objdump'
 OBJEXT='o'
 OTOOL64=''
 OTOOL=''
-PACKAGE='lux'
+PACKAGE='are'
 PACKAGE_BUGREPORT='www.ARENON.io'
 PACKAGE_NAME='ARENON'
 PACKAGE_STRING='ARENON 4.3.1'
-PACKAGE_TARNAME='lux'
+PACKAGE_TARNAME='are'
 PACKAGE_URL=''
 PACKAGE_VERSION='4.3.1'
 PATH_SEPARATOR=':'
@@ -3537,7 +3537,7 @@ host_vendor='pc'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/dpr/lux2/build-aux/install-sh'
+install_sh='${SHELL} /home/dpr/are2/build-aux/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
@@ -3562,7 +3562,7 @@ target_alias=''
 
 /* confdefs.h */
 #define PACKAGE_NAME "ARENON"
-#define PACKAGE_TARNAME "lux"
+#define PACKAGE_TARNAME "are"
 #define PACKAGE_VERSION "4.3.1"
 #define PACKAGE_STRING "ARENON 4.3.1"
 #define PACKAGE_BUGREPORT "www.ARENON.io"

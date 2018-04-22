@@ -1,9 +1,9 @@
-/* src/config/lux-config.h.  Generated from lux-config.h.in by configure.  */
-/* src/config/lux-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/are-config.h.  Generated from are-config.h.in by configure.  */
+/* src/config/are-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef LUX_CONFIG_H
+#ifndef are_CONFIG_H
 
-#define LUX_CONFIG_H
+#define are_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -287,7 +287,7 @@
 #define PACKAGE_STRING "ARENON 4.3.1"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "lux"
+#define PACKAGE_TARNAME "are"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
@@ -356,4 +356,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //LUX_CONFIG_H
+#endif //are_CONFIG_H

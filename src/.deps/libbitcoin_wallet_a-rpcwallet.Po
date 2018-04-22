@@ -1508,7 +1508,7 @@ libbitcoin_wallet_a-rpcwallet.o: rpcwallet.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/iostreams/detail/is_dereferenceable.hpp \
  /usr/include/boost/iostreams/device/array.hpp univalue/univalue.h \
  timedata.h util.h tinyformat.h utiltime.h utilmoneystr.h wallet.h \
- crypter.h keystore.h main.h config/lux-config.h chain.h pow.h \
+ crypter.h keystore.h main.h config/are-config.h chain.h pow.h \
  /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/lexical_cast/bad_lexical_cast.hpp \
  /usr/include/boost/lexical_cast/try_lexical_convert.hpp \
@@ -5111,7 +5111,7 @@ keystore.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 chain.h:
 

@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Lux
-Comment=Lux P2P Cryptocurrency
-Exec=lux-qt %u
+Name=are
+Comment=are P2P Cryptocurrency
+Exec=are-qt %u
 Terminal=false
 Type=Application
-Icon=lux128
-MimeType=x-scheme-handler/lux;
+Icon=are128
+MimeType=x-scheme-handler/are;
 Categories=Office;Finance;
 Name[de_DE]=are.desktop

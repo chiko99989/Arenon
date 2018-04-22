@@ -1040,7 +1040,7 @@ libbitcoin_wallet_a-instantx.o: instantx.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/variant/bad_visit.hpp consensus/params.h pubkey.h \
  script/script.h script/standard.h script/interpreter.h \
  script/script_error.h instantx.h primitives/transaction.h main.h \
- config/lux-config.h amount.h chain.h pow.h \
+ config/are-config.h amount.h chain.h pow.h \
  /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/range/iterator_range_core.hpp \
  /usr/include/boost/range/functions.hpp /usr/include/boost/range/size.hpp \
@@ -3669,7 +3669,7 @@ primitives/transaction.h:
 
 main.h:
 
-config/lux-config.h:
+config/are-config.h:
 
 amount.h:
 

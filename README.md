@@ -41,9 +41,9 @@ In addition, without aregate and Pmn, Bitcoin and Ethereum cannot interact with 
 | Stake Time | `36 hours` |
 | Masternode Requirement | `16,120 are` |
 | Masternode Reward | `40% PoS Block ` |
-| Port | `26868` |
-| RPC Port | `9888` |
-| Masternode Port | `26868` |
+| Port | `22937` |
+| RPC Port | `22938` |
+| Masternode Port | `22937` |
 
 
 Build are wallet

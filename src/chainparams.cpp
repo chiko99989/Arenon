@@ -136,7 +136,7 @@ public:
         printf("%s\n", genesis.GetHash().ToString().c_str());
         printf("%s\n", genesis.BuildMerkleTree().ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0x9efaadbddf7e1705c57d0d5a2f6e752c371a6e075198ccb7021e35e305a3fa1c"));
+        assert(hashGenesisBlock == uint256("0x65cb33897e50dbf348b264705789f44f6696b9d96b7f448d6be30cfe6ae08872"));
         assert(genesis.hashMerkleRoot == uint256("0xab2caaf670ce9e626578c48e40c24a296396f189823d56fe762803ca9b9d2676"));
 
         vSeeds.push_back(CDNSSeedData("85.214.211.186", "85.214.211.186")); // Non-standard DNS request

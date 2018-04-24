@@ -98,7 +98,7 @@ public:
         pchMessageStart[2] = 0x39;
         pchMessageStart[3] = 0xc7;
         vAlertPubKey = ParseHex("3df513c016ed915287cf3cff222989769417e87654b679228c91e26e26900eb9fd053cd9f16a9a2894ad5ebbd551be1a4bd23bdaaa23679be17f3e21a16e6fbeba");
-        nDefaultPort = /*28666*/ 22397;
+        nDefaultPort = /*28666*/ 22937;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // are starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;

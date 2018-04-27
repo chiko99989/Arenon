@@ -116,7 +116,7 @@ public:
         const char* pszTimestamp = "ARENON - The Gaming Currency No.1 - Masternode - FuSSeL - DPR - qounsX - Glenviddich"; // Input Activation code to activate blockchain
         CMutableTransaction txNew;
         txNew.nVersion = 1;
-        txNew.nTime = 1524783564;
+        txNew.nTime = 1524830618;
         txNew.nLockTime = 0;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -127,7 +127,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1524783564; //10/10/2017
+        genesis.nTime = 1524830618; //27/04/2018
         genesis.nBits = 0x1e0fffff;
         genesis.nNonce = 0;
 
@@ -154,7 +154,7 @@ public:
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
-        fMineBlocksOnDemand = false;
+        fMineBlocksOnDemand = true;
         fSkipProofOfWorkCheck = true;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
@@ -162,7 +162,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "04a983220ea7a38a7106385003fef77896538a382a0dcc389cc45f3c98751d9af423a097789757556259351198a8aaa628a1fd644c3232678c5845384c744ff8d7";
 
-        strDarksendPoolDummyAddress = "LgcjpYxWa5EB9KCYaRtpPgG8kgiWRvJY38";
+        strDarksendPoolDummyAddress = "LgcjpYxWa3ca9KCYaRtpPgG8kgiWRvJY38";
         nStartMasternodePayments = 1524353717; // 10/10/2017
 
         nStakingRoundPeriod = 120; // 2 minutes a round

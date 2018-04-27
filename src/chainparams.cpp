@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-            ( 0,   uint256("0x9efaadbddf7e1705c57d0d5a2f6e752c371a6e075198ccb7021e35e305a3fa1c") );
+            ( 0,   uint256("0x2a44552fb04e0c546454f4f885b1e9c1084d8ee332b60b0940fc0bc63cd5123c") );
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -136,8 +136,8 @@ public:
         printf("%s\n", genesis.GetHash().ToString().c_str());
         printf("%s\n", genesis.BuildMerkleTree().ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0xf86c0facbd4f8c7b7387ced2faff3c28e2c707058364c9fcd57a34c558a2a3aa"));
-        assert(genesis.hashMerkleRoot == uint256("0xc0a27673e326d60044bb232de9406af166326759ef835f73acdd72e4f1f44fd8"));
+        assert(hashGenesisBlock == uint256("0x2a44552fb04e0c546454f4f885b1e9c1084d8ee332b60b0940fc0bc63cd5123c"));
+        assert(genesis.hashMerkleRoot == uint256("0x0fb5f244869fe9abb027c819bb4256cd1583513ac06030ddb302d6aac569dece"));
 
         vSeeds.push_back(CDNSSeedData("85.214.211.186", "85.214.211.186")); // Non-standard DNS request
 

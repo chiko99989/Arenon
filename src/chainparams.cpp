@@ -116,7 +116,7 @@ public:
         const char* pszTimestamp = "ARENON - The Gaming Currency No.1 - Masternode - FuSSeL - DPR - qounsX - Glenviddich"; // Input Activation code to activate blockchain
         CMutableTransaction txNew;
         txNew.nVersion = 1;
-        txNew.nTime = 1524830618;
+        txNew.nTime = 1525019994;
         txNew.nLockTime = 0;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -127,17 +127,17 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1524830618; //27/04/2018
+        genesis.nTime = 1525019994; //27/04/2018
         genesis.nBits = 0x1e0fffff;
-        genesis.nNonce = 0;
+        genesis.nNonce = 65416;
 
         hashGenesisBlock = genesis.GetHash();
 
         printf("%s\n", genesis.GetHash().ToString().c_str());
         printf("%s\n", genesis.BuildMerkleTree().ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0x2a44552fb04e0c546454f4f885b1e9c1084d8ee332b60b0940fc0bc63cd5123c"));
-        assert(genesis.hashMerkleRoot == uint256("0x0fb5f244869fe9abb027c819bb4256cd1583513ac06030ddb302d6aac569dece"));
+        assert(hashGenesisBlock == uint256("0xfcb286424c821650f1db77c9b01ecf168862a7ba54443776f811d363a891d504"));
+        assert(genesis.hashMerkleRoot == uint256("0x4008fdbe29bcd11aa8399585ebb6246b6c8310e11a6a3caad77ee6c6341a06ac"));
 
         vSeeds.push_back(CDNSSeedData("85.214.211.186", "85.214.211.186")); // Non-standard DNS request
 
@@ -163,7 +163,7 @@ public:
         strSporkKey = "04a983220ea7a38a7106385003fef77896538a382a0dcc389cc45f3c98751d9af423a097789757556259351198a8aaa628a1fd644c3232678c5845384c744ff8d7";
 
         strDarksendPoolDummyAddress = "LgcjpYxWa3ca9KCYaRtpPgG8kgiWRvJY38";
-        nStartMasternodePayments = 1524353717; // 10/10/2017
+        nStartMasternodePayments = 1525019994; // 10/10/2017
 
         nStakingRoundPeriod = 120; // 2 minutes a round
         nStakingInterval = 22;

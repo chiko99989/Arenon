@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-            ( 0,   uint256("0x2a44552fb04e0c546454f4f885b1e9c1084d8ee332b60b0940fc0bc63cd5123c") );
+            ( 0,   uint256("0x23ecadacfd4b31e6a227073c7fb556e18a992783a1ce37a5a3ebefab6bb7cde6") );
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -116,7 +116,7 @@ public:
         const char* pszTimestamp = "ARENON - The Gaming Currency No.1 - Masternode - FuSSeL - DPR - qounsX - Glenviddich"; // Input Activation code to activate blockchain
         CMutableTransaction txNew;
         txNew.nVersion = 1;
-        txNew.nTime = 1525019994;
+        txNew.nTime = 1525298399;
         txNew.nLockTime = 0;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -127,22 +127,22 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1525019994; //27/04/2018
+        genesis.nTime = 1525298399; //27/04/2018
         genesis.nBits = 0x1e0fffff;
-        genesis.nNonce = 65416;
+        genesis.nNonce = 141247;
 
         hashGenesisBlock = genesis.GetHash();
 
         printf("%s\n", genesis.GetHash().ToString().c_str());
         printf("%s\n", genesis.BuildMerkleTree().ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0xfcb286424c821650f1db77c9b01ecf168862a7ba54443776f811d363a891d504"));
-        assert(genesis.hashMerkleRoot == uint256("0x4008fdbe29bcd11aa8399585ebb6246b6c8310e11a6a3caad77ee6c6341a06ac"));
+        assert(hashGenesisBlock == uint256("0x23ecadacfd4b31e6a227073c7fb556e18a992783a1ce37a5a3ebefab6bb7cde6"));
+        assert(genesis.hashMerkleRoot == uint256("0x83a1258a1fecd41278a3ca32a58dd5f6376065bd918f299a48244372eed61588"));
 
         vSeeds.push_back(CDNSSeedData("85.214.211.186", "85.214.211.186")); // Non-standard DNS request
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48); // are Start letter L
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,48);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23); // are Start letter L
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,23);
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1,155);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x07)(0x28)(0xA2)(0x4E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x03)(0xD8)(0xA1)(0xE5).convert_to_container<std::vector<unsigned char> >();
@@ -163,7 +163,7 @@ public:
         strSporkKey = "04a983220ea7a38a7106385003fef77896538a382a0dcc389cc45f3c98751d9af423a097789757556259351198a8aaa628a1fd644c3232678c5845384c744ff8d7";
 
         strDarksendPoolDummyAddress = "LgcjpYxWa3ca9KCYaRtpPgG8kgiWRvJY38";
-        nStartMasternodePayments = 1525019994; // 10/10/2017
+        nStartMasternodePayments = 1525298399; // 10/10/2017
 
         nStakingRoundPeriod = 120; // 2 minutes a round
         nStakingInterval = 22;

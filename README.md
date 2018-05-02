@@ -1,15 +1,10 @@
-![are Logo](https://github.com/216k155/are/blob/master/src/qt/res/images/are_logo_horizontal.png)
+![are Logo](https://github.com/chiko99989/arenon/blob/master/src/qt/res/images/are_logo_horizontal.png)
 
 "Empowered By Intelligence"
 
 ARENON is GNU AGPLv3 licensed.
 
-[![Build Status](https://travis-ci.org/216k155/are.svg?branch=master)](https://travis-ci.org/216k155/are)
-<a href="https://discord.gg/27xFP5Y"><img src="https://discordapp.com/api/guilds/364500397999652866/embed.png" alt="Discord server" /></a>
-
-[![Build history](https://buildstats.info/travisci/chart/216k155/are?branch=master)](https://travis-ci.org/216k155/are?branch=master)
-
-[Website](https://ARENON.io) — [aretre + areGate](https://github.com/216k155/aretre) - [PoS Web Wallet](https://are.poswallet.io) — [Block Explorer](https://explorer.ARENON.io/) — [Blog](https://reddit.com/r/areCoin) — [Forum](https://bitcointalk.org/index.php?topic=2254046.0) — [Telegram](https://t.me/arecoinOfficialChat) — [Twitter](https://twitter.com/are_Coin)
+[Website](https://arenon.co.in) — [ [Forum](https://bitcointalk.org/index.php?topic=3250789.0) 
 
 Features
 =============

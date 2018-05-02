@@ -4,7 +4,7 @@
 
 ARENON is GNU AGPLv3 licensed.
 
-[Website](https://arenon.co.in) — [ [Forum](https://bitcointalk.org/index.php?topic=3250789.0) 
+[Website](https://arenon.co.in) —  [Forum](https://bitcointalk.org/index.php?topic=3250789.0) 
 
 Features
 =============
@@ -67,7 +67,7 @@ Note that for WSL the ARENON source path MUST be somewhere in the default mount 
 The next three steps are an example of how to acquire the source in an appropriate way.
 
     cd /usr/src
-    git clone https://github.com/216k155/are.git
+    git clone https://github.com/chiko99989/arenon
     sudo chmod -R a+rw are
 
 Once the source code is ready the build steps are below.
@@ -78,7 +78,7 @@ Once the source code is ready the build steps are below.
 
 ### Build on Ubuntu
 
-    git clone https://github.com/216k155/are.git
+    git clone https://github.com/chiko99989/arenon
 
     cd are
     ./install-dependencies.sh
@@ -115,7 +115,7 @@ Link boost 1.66
 
 Clone the are source code and cd into are
 
-        git clone https://github.com/216k155/are.git
+        git clone https://github.com/chiko99989/arenon
         cd are
         export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include
         ./autogen.sh
@@ -128,7 +128,7 @@ Setup and Build: Arch Linux
 This example lists the steps necessary to setup and build a command line only, non-wallet distribution of the latest changes on Arch Linux:
 
     pacman -S git base-devel boost libevent python
-    git clone https://github.com/216k155/are
+    git clone https://github.com/chiko99989/arenon
     cd are/
     ./autogen.sh
     ./configure --without-miniupnpc --disable-tests

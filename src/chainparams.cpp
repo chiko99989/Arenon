@@ -109,7 +109,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 20 * 60; // are: 1 36hrs
         nTargetSpacing = 2 * 60;  // are: 2 minute
-        nLastPOWBlock = 6000000;
+        nLastPOWBlock = 278;
         nMaturity = 79;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
@@ -168,7 +168,7 @@ public:
 
         nStakingRoundPeriod = 120; // 2 minutes a round
         nStakingInterval = 22;
-        nStakingMinAge = 36 * 60 * 60;
+        nStakingMinAge = 360;
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
